@@ -1,0 +1,139 @@
+query,mask,ambigous_word,sense,template,label,test
+The book is for reading. ,reading,for,purpose,The [X] is for,3,0
+The book is for learning. ,learning,for,purpose,The [X] is for,3,0
+The book is for viewing. ,viewing,for,purpose,The [X] is for,3,0
+The book is for studying. ,studying,for,purpose,The [X] is for,3,0
+The book is for enjoying. ,enjoying,for,purpose,The [X] is for,3,0
+The pan is for cooking. ,cooking,for,purpose,The [X] is for,3,0
+The knife is for cutting. ,cutting,for,purpose,The [X] is for,3,0
+The keyboard is for typing. ,typing,for,purpose,The [X] is for,3,0
+The pencil is for writing.,writing,for,purpose,The [X] is for,3,0
+The car is for driving. ,driving,for,purpose,The [X] is for,3,0
+The bus is for driving.,driving,for,purpose,The [X] is for,3,0
+The plane is for flying. ,flying,for,purpose,The [X] is for,3,0
+The boat is for sailing. ,sailing,for,purpose,The [X] is for,3,0
+The soap is for cleaning. ,cleaning,for,purpose,The [X] is for,3,0
+The plate is for MASK. ,MASK,for,purpose,The [X] is for,3,1
+The chalk is for MASK. ,MASK,for,purpose,The [X] is for,3,1
+The mixer is for MASK. ,MASK,for,purpose,The [X] is for,3,1
+The cup is for MASK. ,MASK,for,purpose,The [X] is for,3,1
+The fork is for MASK. ,MASK,for,purpose,The [X] is for,3,1
+The spoon is for MASK. ,MASK,for,purpose,The [X] is for,3,1
+The bed is for MASK. ,MASK,for,purpose,The [X] is for,3,1
+The rope is for MASK.,MASK,for,purpose,The [X] is for,3,1
+The food is for MASK. ,MASK,for,purpose,The [X] is for,3,1
+I had slept. ,slept,had,aux_past,I had,1,0
+I had left. ,left,had,aux_past,I had,1,0
+I had eaten. ,eaten,had,aux_past,I had,1,0
+I had gone. ,gone,had,aux_past,I had,1,0
+I had finished. ,finished,had,aux_past,I had,1,0
+I had awoken.,awoken,had,aux_past,I had,1,0
+I had arrived.,arrived,had,aux_past,I had,1,0
+I had become. ,become,had,aux_past,I had,1,0
+I had bought.,bought,had,aux_past,I had,1,0
+I had caught. ,caught,had,aux_past,I had,1,0
+I had chosen. ,chosen,had,aux_past,I had,1,0
+I had come. ,come,had,aux_past,I had,1,0
+I had fallen. ,fallen,had,aux_past,I had,1,0
+I had found. ,found,had,aux_past,I had,1,0
+John had MASK.,MASK,had,aux_past,[someone] had,1,1
+Lisa had MASK.,MASK,had,aux_past,[someone] had,1,1
+I had MASK. ,MASK,had,aux_past,[someone] had,1,1
+She had MASK.,MASK,had,aux_past,[someone] had,1,1
+They had MASK. ,MASK,had,aux_past,[someone] had,1,1
+He had MASK. ,MASK,had,aux_past,[someone] had,1,1
+We had MASK. ,MASK,had,aux_past,[someone] had,1,1
+The man had MASK. ,MASK,had,aux_past,[someone] had,1,1
+The dog had MASK.,MASK,had,aux_past,[someone] had,1,1
+I had pizza. ,pizza,had,food,I had,4,0
+I had salad. ,salad,had,food,I had,4,0
+I had coffee.,coffee,had,food,I had,4,0
+I had cake. ,cake,had,food,I had,4,0
+I had sushi. ,sushi,had,food,I had,4,0
+I had rice. ,rice,had,food,I had,4,0
+I had fries. ,fries,had,food,I had,4,0
+I had soup.,soup,had,food,I had,4,0
+I had bread. ,bread,had,food,I had,4,0
+I had doughnuts. ,doughnuts,had,food,I had,4,0
+I had tacos. ,tacos,had,food,I had,4,0
+I had milk.,milk,had,food,I had,4,0
+I had water. ,water,had,food,I had,4,0
+I had juice. ,juice,had,food,I had,4,0
+John had MASK.,MASK,had,food,[someone] had,4,1
+Lisa had MASK.,MASK,had,food,[someone] had,4,1
+I had MASK. ,MASK,had,food,[someone] had,4,1
+She had MASK.,MASK,had,food,[someone] had,4,1
+They had MASK. ,MASK,had,food,[someone] had,4,1
+He had MASK. ,MASK,had,food,[someone] had,4,1
+We had MASK. ,MASK,had,food,[someone] had,4,1
+The man had MASK. ,MASK,had,food,[someone] had,4,1
+The dog had MASK.,MASK,had,food,[someone] had,4,1
+The clip is about a horse. ,horse,about,topic,The clip is about (a),1,0
+The clip is about a queen. ,queen,about,topic,The clip is about (a),1,0
+The clip is about a cat. ,cat,about,topic,The clip is about (a),1,0
+The clip is about a king. ,king,about,topic,The clip is about (a),1,0
+The clip is about a prince. ,prince,about,topic,The clip is about (a),1,0
+The clip is about a ball. ,ball,about,topic,The clip is about (a),1,0
+The clip is about a man. ,man,about,topic,The clip is about (a),1,0
+The clip is about a women. ,women,about,topic,The clip is about (a),1,0
+The clip is about a city. ,city,about,topic,The clip is about (a),1,0
+The clip is about a shop. ,shop,about,topic,The clip is about (a),1,0
+The clip is about a dog. ,dog,about,topic,The clip is about (a),1,0
+The clip is about a cat.  ,cat,about,topic,The clip is about (a),1,0
+The clip is about a child. ,child,about,topic,The clip is about (a),1,0
+The clip is about a tree. ,tree,about,topic,The clip is about (a),1,0
+The show is about a MASK.,MASK,about,topic,The [X] is about,1,1
+The movie is about a MASK.,MASK,about,topic,The [X] is about,1,1
+The book is about a MASK. ,MASK,about,topic,The [X] is about,1,1
+The lesson is about a MASK. ,MASK,about,topic,The [X] is about,1,1
+The story is about a MASK. ,MASK,about,topic,The [X] is about,1,1
+The show is about a MASK. ,MASK,about,topic,The [X] is about,1,1
+The legend is about a MASK. ,MASK,about,topic,The [X] is about,1,1
+The rumor is about a MASK. ,MASK,about,topic,The [X] is about,1,1
+The case is about a MASK. ,MASK,about,topic,The [X] is about,1,1
+I ate salad with enthusiasm. ,enthusiasm,with,feeling,I ate salad with,2,0
+I ate salad with enjoyment. ,enjoyment,with,feeling,I ate salad with,2,0
+I ate salad with abandon. ,abandon,with,feeling,I ate salad with,2,0
+I ate salad with gusto. ,gusto,with,feeling,I ate salad with,2,0
+I ate salad with amusement. ,amusement,with,feeling,I ate salad with,2,0
+I ate salad with boredom. ,boredom,with,feeling,I ate salad with,2,0
+I ate salad with satisfaction.,satisfaction,with,feeling,I ate salad with,2,0
+I ate salad with excitement. ,excitement,with,feeling,I ate salad with,2,0
+I ate salad with sadness. ,sadness,with,feeling,I ate salad with,2,0
+I ate salad with delight. ,delight,with,feeling,I ate salad with,2,0
+I ate salad with hesitation. ,hesitation,with,feeling,I ate salad with,2,0
+I ate salad with surprise. ,surprise,with,feeling,I ate salad with,2,0
+I ate salad with pleasure.,pleasure,with,feeling,I ate salad with,2,0
+I ate salad with regret. ,regret,with,feeling,I ate salad with,2,0
+I ate pizza with MASK. ,MASK,with,feeling,I ate [X] with,2,1
+I ate chocolate with MASK.,MASK,with,feeling,I ate [X] with,2,1
+I ate soup with MASK.,MASK,with,feeling,I ate [X] with,2,1
+I ate doughnuts with MASK. ,MASK,with,feeling,I ate [X] with,2,1
+I ate bread with MASK. ,MASK,with,feeling,I ate [X] with,2,1
+I ate sushi with MASK. ,MASK,with,feeling,I ate [X] with,2,1
+I ate cookies with MASK. ,MASK,with,feeling,I ate [X] with,2,1
+I ate rice with MASK. ,MASK,with,feeling,I ate [X] with,2,1
+I ate cereal with joy. ,MASK,with,feeling,I ate [X] with,2,1
+I ate salad with Lisa. ,Lisa,with,accompanier,I ate salad with,3,0
+I ate salad with Sarah. ,Sarah,with,accompanier,I ate salad with,3,0
+I ate salad with John. ,John,with,accompanier,I ate salad with,3,0
+I ate salad with her. ,her,with,accompanier,I ate salad with,3,0
+I ate salad with you. ,you,with,accompanier,I ate salad with,3,0
+I ate salad with him. ,him,with,accompanier,I ate salad with,3,0
+I ate salad with them.,them,with,accompanier,I ate salad with,3,0
+I ate salad with Nathan. ,Nathan,with,accompanier,I ate salad with,3,0
+I ate salad with Emily. ,Emily,with,accompanier,I ate salad with,3,0
+I ate salad with Chris ,Chris,with,accompanier,I ate salad with,3,0
+I ate salad with Roger. ,Roger,with,accompanier,I ate salad with,3,0
+I ate salad with Anna. ,Anna,with,accompanier,I ate salad with,3,0
+I ate salad with Josh.,Josh,with,accompanier,I ate salad with,3,0
+I ate salad with Bob. ,Bob,with,accompanier,I ate salad with,3,0
+I ate pizza with MASK. ,MASK,with,accompanier,I ate [X] with,3,1
+I ate a cake with MASK.,MASK,with,accompanier,I ate [X] with,3,1
+I ate soup with MASK.,MASK,with,accompanier,I ate [X] with,3,1
+I ate doughnuts with MASK. ,MASK,with,accompanier,I ate [X] with,3,1
+I ate bread with MASK. ,MASK,with,accompanier,I ate [X] with,3,1
+I ate sushi with MASK. ,MASK,with,accompanier,I ate [X] with,3,1
+I ate a burger with MASK. ,MASK,with,accompanier,I ate [X] with,3,1
+I ate rice with MASK. ,MASK,with,accompanier,I ate [X] with,3,1
+I ate cereal with MASK. ,MASK,with,accompanier,I ate [X] with,3,1

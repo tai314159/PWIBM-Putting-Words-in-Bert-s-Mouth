@@ -1,0 +1,41 @@
+query,mask,ambigous_word,label1,label2,sense,sense2,template,mp,min_pair
+The event is in London.,London,in,1,2,locative,temporal,The event is in,yes,The event is in August. 
+The event is in here.,here,in,1,2,locative,temporal,The event is in,yes,The event is in July. 
+The event is in Paris. ,Paris,in,1,2,locative,temporal,The event is in,yes,The event is in October.
+The event is in there. ,there,in,1,2,locative,temporal,The event is in,yes,The event is in June. 
+The event is in Canada. ,Canada,in,1,2,locative,temporal,The event is in,yes,The event is in January.
+The book is for Lisa. ,Lisa,for,2,3,recipient,purpose,The book is for,yes,The book is for reading. 
+The book is for John. ,John,for,2,3,recipient,purpose,The book is for,yes,The book is for learning. 
+The book is for him. ,him,for,2,3,recipient,purpose,The book is for,yes,The book is for viewing. 
+The book is for her. ,her,for,2,3,recipient,purpose,The book is for,yes,The book is for studying. 
+The cup is for me. ,me,for,2,3,recipient,purpose,The book is for,yes,The cup is for drinking. 
+I started the car.,car,started,1,2,electronic_device,information_source,I started the,yes,I started the book.
+I started the truck. ,truck,started,1,2,electronic_device,information_source,I started the,yes,I started the journal. 
+I started the engine. ,engine,started,1,2,electronic_device,information_source,I started the,yes,I started the magazine. 
+I started the bus. ,bus,started,1,2,electronic_device,information_source,I started the,yes,I started the movie. 
+I started the boat. ,boat,started,1,2,electronic_device,information_source,I started the,yes,I started the episode. 
+I had slept. ,slept,had,1,4,aux_past,food,I had,yes,I had pizza. 
+I had arrived. ,seen,had,1,4,aux_past,food,I had,yes,I had salad. 
+I had eaten. ,been,had,1,4,aux_past,food,I had,yes,I had coffee.
+I had gone. ,gone,had,1,4,aux_past,food,I had,yes,I had cake. 
+I had finished. ,finished,had,1,4,aux_past,food,I had,yes,I had sushi. 
+I had a party. ,party,had,5,6,social_event,medical_condition,I had,yes,I had a blister. 
+I had a reception. ,reception,had,5,6,social_event,medical_condition,I had,yes,I had a fever. 
+I had a ceremony.,ceremony,had,5,6,social_event,medical_condition,I had,yes,I had a headache. 
+I had a wedding. ,wedding,had,5,6,social_event,medical_condition,I had,yes,I had a cold. 
+I had a meeting. ,meeting,had,5,6,social_event,medical_condition,I had,yes,I had a cough. 
+The clip is about a horse. ,horse,about,1,2,topic,duration,The clip is about (a),yes,The clip is about an hour.
+The clip is about a queen. ,queen,about,1,2,topic,duration,The clip is about (a),yes,The clip is about a minute. 
+The clip is about a cat. ,cat,about,1,2,topic,duration,The clip is about (a),yes,The clip is about a second. 
+I ate salad with enthusiasm. ,enthusiasm,with,2,1,feeling,instrument,I ate salad with (a),yes,I ate salad with a fork. 
+I ate salad with enjoyment. ,enjoyment,with,2,1,feeling,instrument,I ate salad with (a),yes,I ate salad with a spoon. 
+I ate salad with pleasure. ,pleasure,with,2,1,feeling,instrument,I ate salad with (a),yes,I ate salad with a knife. 
+The dinner is on the table. ,table,on,1,2,locative,temporal,The dinner is on (the),yes,The dinner is on Monday. 
+The dinner is on the stove. ,stove,on,1,2,locative,temporal,The dinner is on (the),yes,The dinner is on Tuesday. 
+The dinner is on the counter. ,counter,on,1,2,locative,temporal,The dinner is on (the),yes,The dinner is on Saturday. 
+The dinner is on the plate. ,plate,on,1,2,locative,temporal,The dinner is on (the),yes,The dinner is on Wednesday
+I will run the study. ,studying,run,1,2,manage,motion,I will run the,yes,I will run the race. 
+I will run the restaurant. ,restaurant,run,1,2,manage,motion,I will run the,yes,I will run the marathon 
+I will run the store. ,store,run,1,2,manage,motion,I will run the,yes,I will run the course
+I will run the lab.,lab,run,1,2,manage,motion,I will run the,yes,I will run the trail
+I will run the shop. ,shop,run,1,2,manage,motion,I will run the,yes,I will run the mile

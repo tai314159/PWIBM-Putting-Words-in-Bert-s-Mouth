@@ -1,3 +1,5 @@
-This is the repository of the paper "Putting Words in Bert's Mouth: Navigating Contextualized Vector Spaces with Pseudowords". 
+# Putting Words in BERT's Mouth: Navigating Contextualized Vector Spaces with Pseudowords
 
-Thanks for coming! The repository is still under construction and will be ready soon. 
+This repository contains the code of our paper [Putting Words in BERT's Mouth: Navigating Contextualized Vector Spaces with Pseudowords](https://arxiv.org/abs/2109.11491) (EMNLP 2021).
+
+Continue the readme file...

@@ -1,0 +1,1 @@
+MaPP_all.txt is an example of a query file in the format needed for the main code to get the pseudowords: get_pseudowords.py
