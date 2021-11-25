@@ -13,13 +13,17 @@ To get the pseudoword vectors, run the code --> get_pseudowords.py using the dat
 Please cite our paper if you found the resources in this repository useful.
 
 ```bibtex
-@inproceedings{karidi2021putting,
-      title={Putting Words in BERT's Mouth: Navigating Contextualized Vector Spaces with Pseudowords}, 
-      author={Taelin Karidi and Yichu Zhou and Nathan Schneider and Omri Abend and Vivek Srikumar},
-      year={2021},
-      eprint={2109.11491},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
+
+inproceedings{karidi2021putting,
+    title = "Putting Words in BERT's Mouth: Navigating Contextualized Vector Spaces with Pseudowords,
+    author = "Taelin Karidi and Yichu Zhou and Nathan Schneider and Omri Abend and Vivek Srikumar",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = oct,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://arxiv.org/abs/2109.11491",
+    
+
 }
 ``` 
